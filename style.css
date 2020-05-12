@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+.parallax {
+  /* The image used */
+  background-image:url('Images/steve_job.blackandwhite.jpg');
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	li {
+   padding:15px;
+	
+}
+
+header img{
+	width:100%;
+}
+
+html,
+body {
+	padding:0;
+    height:100%;
+ 
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    padding:10px;
+    background:#5ee;
+}
+#content {
+    padding:10px;
+    padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#076E07;
+}
+
+
+h1 {
+   text-align: center;	
+   color: black;
+   text-shadow: 0 0 3px #FF0000, 0 0 5px yellow;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E4D13C;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover {
+  background-color: #C3AE05;
+}
+
+
+
+
+.float_right{
+	float:right;
+	padding-left:20px;
+}
+
+body{
+	width="88%";
+	background-color:floralwhite;
+	font-size: medium;
+	text-align: justify;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	margin:auto;
+}
+
+
+footer{
+	background-color: #847171;
+	color: white;
+	text-align: center;
+    text-shadow: -0.2px -0.2px 3px;
+}
