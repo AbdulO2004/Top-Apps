@@ -28,7 +28,7 @@ html,
 body {
 	padding:0;
     height:100%;
- 
+     background-color: white;
 }
 #wrapper {
     min-height:100%;
@@ -80,6 +80,7 @@ li a {
 
 
 
+
 li a:hover {
   background-color: #C3AE05;
 }
@@ -101,10 +102,14 @@ body{
 	margin:auto;
 }
 
+ol {
+	background-color:aqua;
+}
+
 
 footer{
-	background-color: #847171;
+	background-color: #E8D645;
 	color: white;
 	text-align: center;
-    text-shadow: -0.2px -0.2px 3px;
+    text-shadow: -0.2px -0.2px 2px;
 }
